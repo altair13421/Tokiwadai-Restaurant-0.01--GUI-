@@ -30,6 +30,7 @@ R2.pack()
 R3 = Radiobutton(menu, text="Option 3: Shwarma(large)", variable=var, value=3, fg='white', bg='black'
                  ,activebackground='black', activeforeground='gray', selectcolor='black', justify=LEFT)
 R3.pack()
+
 c1 = Canvas(menu, width = 500, height = 100, bg='black', bd=0, highlightthickness=0, relief='ridge')
 c1.create_text(100, 50, fill='white', text="Drinks", font=('helvetica', 15))
 c1.pack()
